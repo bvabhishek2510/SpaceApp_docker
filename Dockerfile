@@ -6,16 +6,9 @@ ENV PATH ${CATALINA_HOME}/bin:${PATH}
 
 RUN mkdir ${CATALINA_HOME}/webapps/spaceapp
 
-COPY index.html ${CATALINA_HOME}/webapps/spaceapp
-COPY geolocation.html ${CATALINA_HOME}/webapps/spaceapp
-COPY css/. ${CATALINA_HOME}/webapps/spaceapp
-COPY js/. ${CATALINA_HOME}/webapps/spaceapp
-COPY img/. ${CATALINA_HOME}/webapps/spaceapp
-COPY font-awesome/css/. ${CATALINA_HOME}/webapps/spaceapp
-COPY font-awesome/fonts/. ${CATALINA_HOME}/webapps/spaceapp
-COPY font-awesome/less/. ${CATALINA_HOME}/webapps/spaceapp
-COPY font-awesome/scss/. ${CATALINA_HOME}/webapps/spaceapp
-COPY fonts/. ${CATALINA_HOME}/webapps/spaceapp
+
+COPY * ${CATALINA_HOME}/webapps/spaceapp
+
 RUN cd bin
 WORKDIR ${CATALINA_HOME}
 
