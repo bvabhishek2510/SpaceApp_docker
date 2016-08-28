@@ -7,7 +7,7 @@ ENV PATH ${CATALINA_HOME}/bin:${PATH}
 RUN mkdir ${CATALINA_HOME}/webapps/spaceapp
 
 
-COPY * ${CATALINA_HOME}/webapps/spaceapp
+COPY * ${CATALINA_HOME}/webapps/spaceapp/
 
 RUN cd bin
 WORKDIR ${CATALINA_HOME}
