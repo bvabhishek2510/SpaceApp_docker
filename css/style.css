@@ -1,13 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Jul 24, 2016, 9:57:15 PM
-    Author     : vbavirisetty15
-*/
-
 html,
 body {
     width: 100%;
@@ -25,15 +15,15 @@ body {
 }
 
 .text-vertical-center h1 {
-    font-size: 35px;
-    line-height: 1em;
-    text-transform: none;
-    letter-spacing: 0px;
-    font-weight: lighter;
-    font-style: normal;
-    color: #fff;
-    position: relative;
-    z-index: inherit;
+  font-size: 72px;
+line-height: 1em;
+text-transform: none;
+letter-spacing: 0px;
+font-weight: lighter;;
+font-style: normal;
+color: #fff;
+position: relative;
+z-index: inherit;
 }
 
 img#logo{
@@ -50,7 +40,7 @@ img#logo{
     background-color: rgba(0,0,0,0.4);
 }
 .btn{
-    color: #fff;
+  color: #fff;
 }
 .btn-circle {
     width: 70px;
@@ -118,6 +108,7 @@ hr.small {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .sidebar-nav li {
@@ -137,7 +128,7 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255,255,255,0.2);
+    
 }
 
 .sidebar-nav li a:active,
@@ -169,7 +160,7 @@ hr.small {
 
 #sidebar-wrapper.active {
     right: 250px;
-    width: 250px;
+    
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -184,64 +175,56 @@ hr.small {
 /* Header */
 
 .header {
+    display: table;
     position: relative;
-    background: url('bg.jpg') 50% 50% no-repeat !important;
+    width: 100%;
+    height: 100%;
+    background: url('../img/bg.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height:100vh;
-    width:100%;
-    background-size: initial;
 }
 
 /* About */
 
 .vision {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url('2.jpg') 50% 50% no-repeat !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height:100vh;
-    width:100%;
-	top:0;
-
-    background-size: initial;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('../img/2.jpg') 50% 50% no-repeat fixed!important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .about {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url('3.jpg') no-repeat !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height:100vh;
-    width:100%;
-    background-size: initial;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('../img/3.jpg') no-repeat fixed!important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Services */
 
 .services {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 95%;
-    background: black no-repeat fixed!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding-top:5%;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 95%;
+  background: black no-repeat fixed!important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-top:5%;
 }
 
 .service-item {
@@ -255,18 +238,15 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url('4.jpg') 50% 50% no-repeat!important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height:100vh;
-    width:100%;
-    background-size: initial;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('../img/4.jpg') 50% 50% no-repeat fixed!important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 
@@ -299,12 +279,12 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 40% 0;
+    padding: 100px 0;
 }
 
 #to-top {
-    display: none;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
 }
